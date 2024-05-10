@@ -43,7 +43,7 @@
         formData.append('image_file', image);
         formData.append('size', 'auto');
 
-        const apiKey = 'tfix68xpDnNkc9djPEwCu6Yw'; // Replace this with your remove.bg API key
+        const apiKey = 'tfix68xpDnNkc9djPEwCu6Yw'; //remove.bg API key
 
         fetch('https://api.remove.bg/v1.0/removebg', {
             method: 'POST',
@@ -65,7 +65,7 @@
         })
         .catch(function(error) {
             console.error('Error:', error);
-            // Handle the error here, e.g., show an error message to the user
+            // show an error message to the user
         });
     }
 
